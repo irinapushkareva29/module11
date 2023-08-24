@@ -79,7 +79,7 @@ main {
 }
 
 .line {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 /* Список экзотических фруктов */
@@ -92,7 +92,7 @@ main {
 
 .fruits__list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   justify-content: center;
   max-height: inherit;
   overflow-y: auto;
@@ -105,6 +105,7 @@ main {
   width: fit-content;
   height: 100px;
   border-radius: 10px;
+  
 }
 
 .fruit_violet {
@@ -130,9 +131,9 @@ main {
 .fruit__info {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction:column;
   border-radius: 5px;
   background: #fff;
   height: 100%;
-  padding: 10px;
+  padding: 20px;
 }
